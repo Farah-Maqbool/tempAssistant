@@ -48,7 +48,7 @@ An AI-powered assistant that uses FortyGuard APIs to retrieve environmental data
 
 ## Live Demo
 
-[Open the Streamlit App](YOUR_STREAMLIT_APP_URL)
+[Open the Streamlit App](https://tempassistant.streamlit.app/)
 
 ## Author
 
