@@ -11,7 +11,7 @@ from visualizer import (
 
 st.set_page_config(
     page_title="FortyGuard AI Assistant",
-    page_icon="🌡️",
+    page_icon="",
     layout="wide"
 )
 
@@ -117,15 +117,15 @@ col1, col2, col3 = st.columns(3)
 selected_prompt = None
 
 with col1:
-    if st.button("🌤️ Environmental Conditions", use_container_width=True):
+    if st.button("a) Environmental Conditions", use_container_width=True):
         selected_prompt = questions["Environmental Conditions"]
 
 with col2:
-    if st.button("🗺️ Temperature Heatmap", use_container_width=True):
+    if st.button("b) Temperature Heatmap", use_container_width=True):
         selected_prompt = questions["Temperature Heatmap"]
 
 with col3:
-    if st.button("🚶 Temperature-Aware Route", use_container_width=True):
+    if st.button("c) Temperature-Aware Route", use_container_width=True):
         selected_prompt = questions["Temperature-Aware Routing"]
 
 
